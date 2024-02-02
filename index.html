@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+
+    
+    <!-- File Links -->
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/navBar.css"/>
+    <!-- External API's -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <section class="navigation-bar">
+        <nav>
+            <div class="header">
+                <img class="logo-icon" src="/images/logo.png">
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <i class="fa-solid fa-times menu-icon"  onclick="hideMenu()"></i>
+                <ul class="nav-links">
+                    <a href="/index.html">
+                        <li class="nav-items">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </li>
+                    </a>
+                    <a href="#about-us">
+                        <li class="nav-items">
+                            <i class="fa-solid fa-circle-info"></i>
+                            About Us
+                        </li>
+                    </a>
+                    <a href="#products-services">
+                        <li class="nav-items">
+                            <i class="fa-solid fa-code"></i>
+                            Product & Services
+                        </li>
+                    </a>
+                    <a href="#contact-us">
+                        <li class="nav-items">
+                            <i class="fa-solid fa-phone"></i>
+                            Contact Us
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <i class="fa fa-bars menu-icon" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="left-side">
+            <h3 class="sub-heading">Welcome to</h3>
+            <h1 class="heading">Techy Software</h1>
+            <p class="context-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim placeat nostrum voluptas sunt eaque, ut cum libero unde porro nesciunt, ab quis perspiciatis? Obcaecati voluptatibus minima veniam similique fugiat? Voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt in laboriosam, recusandae blanditiis nemo odio sed consequuntur pariatur facilis aspernatur beatae repudiandae eligendi non, fugit vel incidunt iste provident!</p>
+            <div>
+                <button class="cta-btn">Contact Us</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <img class="hero-img" src="/images/software-company.jpeg">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about-us">
+        <h1 class="heading">About Us</h1>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h3>Mission and Vision</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores minima consectetur ipsum modi ea quos est in ullam adipisci illum. Hic vel repudiandae atque eos sint odio, delectus deleniti. Aspernatur.</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3>Innovation</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores minima consectetur ipsum modi ea quos est in ullam adipisci illum. Hic vel repudiandae atque eos sint odio, delectus deleniti. Aspernatur.</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3>Customer-Centric</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores minima consectetur ipsum modi ea quos est in ullam adipisci illum. Hic vel repudiandae atque eos sint odio, delectus deleniti. Aspernatur.</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h3>History & Milestones</h3>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores minima consectetur ipsum modi ea quos est in ullam adipisci illum. Hic vel repudiandae atque eos sint odio, delectus deleniti. Aspernatur.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products and Services -->
+    <section class="products-services" id="products-services">
+        <h1 class="heading">Products &amp; Services</h1>
+        <div class="container">
+            <div class="row">
+                <div class="block">
+                    <img src="/images/products/block-1.png">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-2.png">
+                    <h3>App Development</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-3.png">
+                    <h3>SEO Optimization</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-4.png">
+                    <h3>Social Media Marketing</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="block">
+                    <img src="/images/products/block-5.png">
+                    <h3>UI/UX Designing</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-6.png">
+                    <h3>Microsoft Office</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-7.png">
+                    <h3>24/7 Tech Support</h3>
+                </div>
+                <div class="block">
+                    <img src="/images/products/block-8.png">
+                    <h3>Server Architecture</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us" id="contact-us">
+        <h1 class="heading">Contact Us</h1>
+        <div class="form-container">
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+    
+                <button type="button" class="cta-btn" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container">
+            <h1 class="heading">About Techy</h1>
+            <a href="/index.html"><li>Home</li></a>
+            <a href="#about-us"><li>About Us</li></a>
+            <a href="#products-services"><li>Product & Services</li></a>
+            <a href="#contact-us"><li>Contact Us</li></a>
+        </div>
+        <div class="container">
+            <h1 class="heading">Our Services</h1>
+            <span>Web Development</span>
+            <span>App Development</span>
+            <span>SEO Optimization</span>
+            <span>UI/UX Designing</span>
+            <span>Server Architecture</span>
+            <span>Technical Support</span>
+        </div>
+        <div class="container">
+            <h1 class="heading">Contact & Social</h1>
+            <div class="socials-container">
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Address
+                </span>
+                <p>Tuticorin - India</p>
+            </div>
+            <div class="socials-container">
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                    Mail ID
+                </span>
+                <p>aravinths741@gmail.com</p>
+            </div>
+            <div class="socials-container">
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    Contact
+                </span>
+                <p>+91 78718 67225</p>
+            </div>
+            <div class="socials-container">
+                <span>
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </span>
+                <p>Aravinth-S-731</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
